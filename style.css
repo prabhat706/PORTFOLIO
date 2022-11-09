@@ -1,0 +1,165 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    display: flex;
+}
+
+.sidebar
+{
+    background-color:black;
+    /* width: 170px; */
+    font-family: cursive;
+    font-weight: bolder;
+    height: 100vh;
+    transition: transform 0.3s ease-in
+}
+
+.sidebar nav
+{
+    padding: 30px;
+}
+.sidebarGo
+{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+.sidebar ul li
+{
+    list-style: none;
+    font-size: large;
+    font-weight: bolder;
+    padding: 33px 0;
+}
+.sidebar ul li a
+{
+  text-decoration: none;
+  color: wheat;
+}
+
+/* .main
+{
+    width: 90px;
+} */
+
+.info-container
+{
+    /* background-color: green; */
+    height: 50vh;
+    width: 70vw;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+  
+}
+.devinfo
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: cursive;
+    
+}
+.hello
+{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.name
+{
+    font-size: 48px;
+    font-weight: bold;
+}
+.about
+{
+    font-size: 36px;
+    font-weight: bold;
+}
+.more
+{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.button
+{
+    margin-top: 40px;
+}
+.button button
+{
+    padding: 4px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color:slategrey;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 3px;
+}
+.button button:hover
+{
+    background-color:wheat;
+    transition: all 0.3s ease-in-out;
+}
+.devpic img
+{
+   height: 50vh;
+}
+.btn
+{
+    padding: 4px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color:slategrey;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.btn-sm
+{
+    font-size: 15px;
+    padding: 4px;
+}
+.btn:hover
+{
+    background-color:wheat;
+    transition: all 0.3s ease-in-out;
+}
+
+.link
+{
+    text-decoration: none;
+}
+.main{
+    padding: 23px;
+}
+
+@media (max-width: 600px)
+{
+    *{
+        background-color: rgb(99, 99, 182);
+    }
+    .sidebar
+    {
+        transform: translate(-443px,0px);
+        position: absolute;
+    }
+}
+
+.hamburger
+{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 0px;
+}
+.cross
+{
+    margin-top: 0px;
+    margin-left: 92px;
+}
